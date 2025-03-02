@@ -3,10 +3,22 @@
 	<info>
 		<name>File 2</name>
 		<update version="1.0.0">
-			<file name="file2.xml" url="https://raw.githubusercontent.com/yourgithubaccount/repositoryname/master/user-yourname/file2.xml" />
+			<file name="file2.xml" url="https://raw.githubusercontent.com/yourgithubaccount/sky/master/user-skynet/file2.xml" />
 		</update>
 	</info>
 	
-	<!-- place your elements here -->
+	<setters>
+    <set name="level">1</set>
+    <set name="school">Enchantment</set>
+    <set name="time">1 action</set>
+    <set name="duration">Until Dispelled</set>
+    <set name="range">80 feet</set>
+    <set name="hasVerbalComponent">true</set>
+    <set name="hasSomaticComponent">true</set>
+    <set name="hasMaterialComponent">true</set>
+    <set name="materialComponent">saliva</set>
+    <set name="isConcentration">false</set>
+    <set name="isRitual">false</set>
+</setters>
 	
 </elements>
